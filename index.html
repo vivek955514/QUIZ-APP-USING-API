@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css" class="style">
+</head>
+<body>
+  <div class="main-div">
+   <div class="name"><h1> QUIZ APP</h1></div>
+    <div class="inner-div">
+      <div id="timer">Time left: 15s</div>
+        <h2 class="question">Question comes here</h2>
+       
+        <ul>
+            <li>
+               <input type="radio" name="answer" id="ans1" class="answer">
+               <lable for="ans1" id="option1"> Answer option</lable>
+
+            </li>
+            <li>
+                <input type="radio" name="answer" id="ans2" class="answer">
+                <lable for="ans2" id="option2"> Answer option</lable>
+ 
+             </li>
+             <li>
+                <input type="radio" name="answer" id="ans3" class="answer">
+                <lable for="ans3" id="option3"> Answer option</lable>
+ 
+             </li>
+             <li>
+                <input type="radio" name="answer" id="ans4" class="answer">
+                <lable for="ans4" id="option4"> Answer option</lable>
+ 
+             </li>
+        </ul>
+        <button id="submit">Submit</button>
+        <div   id="showScore"class="scoreArea"></div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+    
+</body>
+</html>
